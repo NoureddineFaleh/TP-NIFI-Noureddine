@@ -15,4 +15,5 @@ Ce dépôt contient le fichier JSON utilisé pour la configuration du TP avec Ap
 
 - **Noureddine Faleh**
 - **Nour Mhadhbi**  
-  _© Tous les droits sont réservés._
+
+ _© Tous les droits sont réservés._
