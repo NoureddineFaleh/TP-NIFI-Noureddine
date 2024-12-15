@@ -1,4 +1,4 @@
-# TP NIFI Noureddine
+# TP NIFI Noureddine & Nour
 
 Ce dépôt contient le fichier JSON utilisé pour la configuration du TP avec Apache NiFi.
 
