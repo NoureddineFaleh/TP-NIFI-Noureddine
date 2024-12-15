@@ -1,0 +1,1796 @@
+{
+	"template": {
+		"description": "TP NIFI Noureddine",
+		"groupId": "c654b6e8-0193-1000-69c6-e15ea9c93e85",
+		"name": "TP NIFI Noureddine",
+		"snippet": {
+			"processGroups": {
+				"id": "d5d1d125-bf50-32cf-0000-000000000000",
+				"parentGroupId": "672fbb6c-ec49-3b58-0000-000000000000",
+				"position": {
+					"x": "0.0",
+					"y": "0.0"
+				},
+				"versionedComponentId": "d5d1d125-bf50-32cf-801d-0d609868a033",
+				"comments": "",
+				"contents": {
+					"connections": [
+						{
+							"id": "2c7fd393-d11e-312f-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"versionedComponentId": "2c7fd393-d11e-312f-95f3-c3eb277c62e7",
+							"backPressureDataSizeThreshold": "1 GB",
+							"backPressureObjectThreshold": "10000",
+							"destination": {
+								"groupId": "d5d1d125-bf50-32cf-0000-000000000000",
+								"id": "b2de43fe-0126-3e29-0000-000000000000",
+								"type": "PROCESSOR",
+								"versionedComponentId": "b2de43fe-0126-3e29-99f8-0a7b02dd9c48"
+							},
+							"flowFileExpiration": "0 sec",
+							"labelIndex": "1",
+							"loadBalanceCompression": "DO_NOT_COMPRESS",
+							"loadBalancePartitionAttribute": "",
+							"loadBalanceStatus": "LOAD_BALANCE_NOT_CONFIGURED",
+							"loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
+							"name": "",
+							"selectedRelationships": "success",
+							"source": {
+								"groupId": "d5d1d125-bf50-32cf-0000-000000000000",
+								"id": "9103fb9e-16f0-32c4-0000-000000000000",
+								"type": "PROCESSOR",
+								"versionedComponentId": "9103fb9e-16f0-32c4-8507-791491ab4c22"
+							},
+							"zIndex": "0"
+						},
+						{
+							"id": "2df9011f-e46f-3597-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"versionedComponentId": "2df9011f-e46f-3597-9f95-4a5bcb8ae931",
+							"backPressureDataSizeThreshold": "1 GB",
+							"backPressureObjectThreshold": "10000",
+							"destination": {
+								"groupId": "d5d1d125-bf50-32cf-0000-000000000000",
+								"id": "50b64616-a210-3746-0000-000000000000",
+								"type": "PROCESSOR",
+								"versionedComponentId": "50b64616-a210-3746-b2e8-4e1d950ecefa"
+							},
+							"flowFileExpiration": "0 sec",
+							"labelIndex": "1",
+							"loadBalanceCompression": "DO_NOT_COMPRESS",
+							"loadBalancePartitionAttribute": "",
+							"loadBalanceStatus": "LOAD_BALANCE_NOT_CONFIGURED",
+							"loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
+							"name": "",
+							"selectedRelationships": "success",
+							"source": {
+								"groupId": "d5d1d125-bf50-32cf-0000-000000000000",
+								"id": "b2de43fe-0126-3e29-0000-000000000000",
+								"type": "PROCESSOR",
+								"versionedComponentId": "b2de43fe-0126-3e29-99f8-0a7b02dd9c48"
+							},
+							"zIndex": "0"
+						},
+						{
+							"id": "977fc270-97ca-3bae-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"versionedComponentId": "977fc270-97ca-3bae-a0c2-a63a4bc652f1",
+							"backPressureDataSizeThreshold": "1 GB",
+							"backPressureObjectThreshold": "10000",
+							"destination": {
+								"groupId": "d5d1d125-bf50-32cf-0000-000000000000",
+								"id": "ee46313c-3583-3f7a-0000-000000000000",
+								"type": "PROCESSOR",
+								"versionedComponentId": "ee46313c-3583-3f7a-bf1d-4479d72be311"
+							},
+							"flowFileExpiration": "0 sec",
+							"labelIndex": "1",
+							"loadBalanceCompression": "DO_NOT_COMPRESS",
+							"loadBalancePartitionAttribute": "",
+							"loadBalanceStatus": "LOAD_BALANCE_NOT_CONFIGURED",
+							"loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
+							"name": "",
+							"selectedRelationships": "success",
+							"source": {
+								"groupId": "d5d1d125-bf50-32cf-0000-000000000000",
+								"id": "e704757f-5bab-32d5-0000-000000000000",
+								"type": "PROCESSOR",
+								"versionedComponentId": "e704757f-5bab-32d5-b3e8-144b2763fa5d"
+							},
+							"zIndex": "0"
+						},
+						{
+							"id": "aeb55ecd-f3ee-3f43-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"versionedComponentId": "aeb55ecd-f3ee-3f43-9889-fa7d35ac7eb7",
+							"backPressureDataSizeThreshold": "1 GB",
+							"backPressureObjectThreshold": "10000",
+							"destination": {
+								"groupId": "d5d1d125-bf50-32cf-0000-000000000000",
+								"id": "e704757f-5bab-32d5-0000-000000000000",
+								"type": "PROCESSOR",
+								"versionedComponentId": "e704757f-5bab-32d5-b3e8-144b2763fa5d"
+							},
+							"flowFileExpiration": "0 sec",
+							"labelIndex": "1",
+							"loadBalanceCompression": "DO_NOT_COMPRESS",
+							"loadBalancePartitionAttribute": "",
+							"loadBalanceStatus": "LOAD_BALANCE_NOT_CONFIGURED",
+							"loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
+							"name": "",
+							"selectedRelationships": "success",
+							"source": {
+								"groupId": "d5d1d125-bf50-32cf-0000-000000000000",
+								"id": "42957ad9-b092-3f92-0000-000000000000",
+								"type": "PROCESSOR",
+								"versionedComponentId": "42957ad9-b092-3f92-bd85-5301b0e5755e"
+							},
+							"zIndex": "0"
+						},
+						{
+							"id": "e78d7588-86ef-38e0-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"versionedComponentId": "e78d7588-86ef-38e0-9e30-711a5d3be58d",
+							"backPressureDataSizeThreshold": "1 GB",
+							"backPressureObjectThreshold": "10000",
+							"destination": {
+								"groupId": "d5d1d125-bf50-32cf-0000-000000000000",
+								"id": "42957ad9-b092-3f92-0000-000000000000",
+								"type": "PROCESSOR",
+								"versionedComponentId": "42957ad9-b092-3f92-bd85-5301b0e5755e"
+							},
+							"flowFileExpiration": "0 sec",
+							"labelIndex": "1",
+							"loadBalanceCompression": "DO_NOT_COMPRESS",
+							"loadBalancePartitionAttribute": "",
+							"loadBalanceStatus": "LOAD_BALANCE_NOT_CONFIGURED",
+							"loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
+							"name": "",
+							"selectedRelationships": "success",
+							"source": {
+								"groupId": "d5d1d125-bf50-32cf-0000-000000000000",
+								"id": "50b64616-a210-3746-0000-000000000000",
+								"type": "PROCESSOR",
+								"versionedComponentId": "50b64616-a210-3746-b2e8-4e1d950ecefa"
+							},
+							"zIndex": "0"
+						}
+					],
+					"controllerServices": [
+						{
+							"id": "1c3e03f0-da9b-33bf-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"versionedComponentId": "1c3e03f0-da9b-33bf-9285-882692a8150f",
+							"bulletinLevel": "WARN",
+							"bundle": {
+								"artifact": "nifi-parquet-nar",
+								"group": "org.apache.nifi",
+								"version": "1.28.1"
+							},
+							"comments": "",
+							"descriptors": {
+								"entry": [
+									{
+										"key": "Schema Write Strategy",
+										"value": {
+											"name": "Schema Write Strategy"
+										}
+									},
+									{
+										"key": "schema-cache",
+										"value": {
+											"identifiesControllerService": "org.apache.nifi.serialization.RecordSchemaCacheService",
+											"name": "schema-cache"
+										}
+									},
+									{
+										"key": "schema-protocol-version",
+										"value": {
+											"dependencies": {
+												"dependentValues": [
+													"hwx-schema-ref-attributes",
+													"hwx-content-encoded-schema"
+												],
+												"propertyName": "Schema Write Strategy"
+											},
+											"name": "schema-protocol-version"
+										}
+									},
+									{
+										"key": "schema-access-strategy",
+										"value": {
+											"name": "schema-access-strategy"
+										}
+									},
+									{
+										"key": "schema-registry",
+										"value": {
+											"dependencies": {
+												"dependentValues": [
+													"confluent-encoded",
+													"schema-name",
+													"hwx-schema-ref-attributes",
+													"hwx-content-encoded-schema"
+												],
+												"propertyName": "schema-access-strategy"
+											},
+											"identifiesControllerService": "org.apache.nifi.schemaregistry.services.SchemaRegistry",
+											"name": "schema-registry"
+										}
+									},
+									{
+										"key": "schema-name",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-name",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-name"
+										}
+									},
+									{
+										"key": "schema-version",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-name",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-version"
+										}
+									},
+									{
+										"key": "schema-branch",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-name",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-branch"
+										}
+									},
+									{
+										"key": "schema-text",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-text-property",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-text"
+										}
+									},
+									{
+										"key": "cache-size",
+										"value": {
+											"name": "cache-size"
+										}
+									},
+									{
+										"key": "compression-type",
+										"value": {
+											"name": "compression-type"
+										}
+									},
+									{
+										"key": "row-group-size",
+										"value": {
+											"name": "row-group-size"
+										}
+									},
+									{
+										"key": "page-size",
+										"value": {
+											"name": "page-size"
+										}
+									},
+									{
+										"key": "dictionary-page-size",
+										"value": {
+											"name": "dictionary-page-size"
+										}
+									},
+									{
+										"key": "max-padding-size",
+										"value": {
+											"name": "max-padding-size"
+										}
+									},
+									{
+										"key": "enable-dictionary-encoding",
+										"value": {
+											"name": "enable-dictionary-encoding"
+										}
+									},
+									{
+										"key": "enable-validation",
+										"value": {
+											"name": "enable-validation"
+										}
+									},
+									{
+										"key": "writer-version",
+										"value": {
+											"name": "writer-version"
+										}
+									},
+									{
+										"key": "avro-write-old-list-structure",
+										"value": {
+											"name": "avro-write-old-list-structure"
+										}
+									},
+									{
+										"key": "avro-add-list-element-records",
+										"value": {
+											"name": "avro-add-list-element-records"
+										}
+									},
+									{
+										"key": "int96-fields",
+										"value": {
+											"name": "int96-fields"
+										}
+									}
+								]
+							},
+							"name": "ParquetRecordSetWriter",
+							"persistsState": "false",
+							"properties": {
+								"entry": [
+									{
+										"key": "Schema Write Strategy",
+										"value": "no-schema"
+									},
+									{
+										"key": "schema-cache"
+									},
+									{
+										"key": "schema-protocol-version",
+										"value": "1"
+									},
+									{
+										"key": "schema-access-strategy",
+										"value": "inherit-record-schema"
+									},
+									{
+										"key": "schema-registry"
+									},
+									{
+										"key": "schema-name",
+										"value": "${schema.name}"
+									},
+									{
+										"key": "schema-version"
+									},
+									{
+										"key": "schema-branch"
+									},
+									{
+										"key": "schema-text",
+										"value": "${avro.schema}"
+									},
+									{
+										"key": "cache-size",
+										"value": "1000"
+									},
+									{
+										"key": "compression-type",
+										"value": "SNAPPY"
+									},
+									{
+										"key": "row-group-size"
+									},
+									{
+										"key": "page-size"
+									},
+									{
+										"key": "dictionary-page-size"
+									},
+									{
+										"key": "max-padding-size"
+									},
+									{
+										"key": "enable-dictionary-encoding"
+									},
+									{
+										"key": "enable-validation"
+									},
+									{
+										"key": "writer-version"
+									},
+									{
+										"key": "avro-write-old-list-structure",
+										"value": "true"
+									},
+									{
+										"key": "avro-add-list-element-records",
+										"value": "true"
+									},
+									{
+										"key": "int96-fields"
+									}
+								]
+							},
+							"state": "ENABLED",
+							"type": "org.apache.nifi.parquet.ParquetRecordSetWriter"
+						},
+						{
+							"id": "4a67ded8-9e52-3108-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"versionedComponentId": "4a67ded8-9e52-3108-a29a-40ffc566be3a",
+							"bulletinLevel": "WARN",
+							"bundle": {
+								"artifact": "nifi-parquet-nar",
+								"group": "org.apache.nifi",
+								"version": "1.28.1"
+							},
+							"comments": "",
+							"descriptors": {
+								"entry": {
+									"key": "avro-read-compatibility",
+									"value": {
+										"name": "avro-read-compatibility"
+									}
+								}
+							},
+							"name": "ParquetReader",
+							"persistsState": "false",
+							"properties": {
+								"entry": {
+									"key": "avro-read-compatibility",
+									"value": "true"
+								}
+							},
+							"state": "ENABLED",
+							"type": "org.apache.nifi.parquet.ParquetReader"
+						},
+						{
+							"id": "6f6fc59b-2cb6-378d-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"versionedComponentId": "6f6fc59b-2cb6-378d-a401-1ab61d80225a",
+							"bulletinLevel": "WARN",
+							"bundle": {
+								"artifact": "nifi-record-serialization-services-nar",
+								"group": "org.apache.nifi",
+								"version": "1.28.1"
+							},
+							"comments": "",
+							"descriptors": {
+								"entry": [
+									{
+										"key": "schema-access-strategy",
+										"value": {
+											"name": "schema-access-strategy"
+										}
+									},
+									{
+										"key": "schema-registry",
+										"value": {
+											"dependencies": {
+												"dependentValues": [
+													"confluent-encoded",
+													"schema-name",
+													"hwx-schema-ref-attributes",
+													"hwx-content-encoded-schema"
+												],
+												"propertyName": "schema-access-strategy"
+											},
+											"identifiesControllerService": "org.apache.nifi.schemaregistry.services.SchemaRegistry",
+											"name": "schema-registry"
+										}
+									},
+									{
+										"key": "schema-name",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-name",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-name"
+										}
+									},
+									{
+										"key": "schema-version",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-name",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-version"
+										}
+									},
+									{
+										"key": "schema-branch",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-name",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-branch"
+										}
+									},
+									{
+										"key": "schema-text",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-text-property",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-text"
+										}
+									},
+									{
+										"key": "csv-reader-csv-parser",
+										"value": {
+											"name": "csv-reader-csv-parser"
+										}
+									},
+									{
+										"key": "Date Format",
+										"value": {
+											"name": "Date Format"
+										}
+									},
+									{
+										"key": "Time Format",
+										"value": {
+											"name": "Time Format"
+										}
+									},
+									{
+										"key": "Timestamp Format",
+										"value": {
+											"name": "Timestamp Format"
+										}
+									},
+									{
+										"key": "CSV Format",
+										"value": {
+											"name": "CSV Format"
+										}
+									},
+									{
+										"key": "Value Separator",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Value Separator"
+										}
+									},
+									{
+										"key": "Record Separator",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Record Separator"
+										}
+									},
+									{
+										"key": "Skip Header Line",
+										"value": {
+											"name": "Skip Header Line"
+										}
+									},
+									{
+										"key": "ignore-csv-header",
+										"value": {
+											"name": "ignore-csv-header"
+										}
+									},
+									{
+										"key": "Quote Character",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Quote Character"
+										}
+									},
+									{
+										"key": "Escape Character",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Escape Character"
+										}
+									},
+									{
+										"key": "Comment Marker",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Comment Marker"
+										}
+									},
+									{
+										"key": "Null String",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Null String"
+										}
+									},
+									{
+										"key": "Trim Fields",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Trim Fields"
+										}
+									},
+									{
+										"key": "csvutils-character-set",
+										"value": {
+											"name": "csvutils-character-set"
+										}
+									},
+									{
+										"key": "csvutils-allow-duplicate-header-names",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "csvutils-allow-duplicate-header-names"
+										}
+									},
+									{
+										"key": "Trim double quote",
+										"value": {
+											"dependencies": {
+												"dependentValues": "rfc-4180",
+												"propertyName": "CSV Format"
+											},
+											"name": "Trim double quote"
+										}
+									}
+								]
+							},
+							"name": "CSVReader",
+							"persistsState": "false",
+							"properties": {
+								"entry": [
+									{
+										"key": "schema-access-strategy",
+										"value": "infer-schema"
+									},
+									{
+										"key": "schema-registry"
+									},
+									{
+										"key": "schema-name",
+										"value": "${schema.name}"
+									},
+									{
+										"key": "schema-version"
+									},
+									{
+										"key": "schema-branch"
+									},
+									{
+										"key": "schema-text",
+										"value": "${avro.schema}"
+									},
+									{
+										"key": "csv-reader-csv-parser",
+										"value": "commons-csv"
+									},
+									{
+										"key": "Date Format"
+									},
+									{
+										"key": "Time Format"
+									},
+									{
+										"key": "Timestamp Format"
+									},
+									{
+										"key": "CSV Format",
+										"value": "custom"
+									},
+									{
+										"key": "Value Separator",
+										"value": ","
+									},
+									{
+										"key": "Record Separator",
+										"value": "\\n"
+									},
+									{
+										"key": "Skip Header Line",
+										"value": "false"
+									},
+									{
+										"key": "ignore-csv-header",
+										"value": "false"
+									},
+									{
+										"key": "Quote Character",
+										"value": "\""
+									},
+									{
+										"key": "Escape Character",
+										"value": "\\"
+									},
+									{
+										"key": "Comment Marker"
+									},
+									{
+										"key": "Null String"
+									},
+									{
+										"key": "Trim Fields",
+										"value": "true"
+									},
+									{
+										"key": "csvutils-character-set",
+										"value": "UTF-8"
+									},
+									{
+										"key": "csvutils-allow-duplicate-header-names",
+										"value": "true"
+									},
+									{
+										"key": "Trim double quote",
+										"value": "true"
+									}
+								]
+							},
+							"state": "ENABLED",
+							"type": "org.apache.nifi.csv.CSVReader"
+						},
+						{
+							"id": "90ca3d62-4873-372f-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"versionedComponentId": "90ca3d62-4873-372f-84a0-0b0b8bb76b77",
+							"bulletinLevel": "WARN",
+							"bundle": {
+								"artifact": "nifi-record-serialization-services-nar",
+								"group": "org.apache.nifi",
+								"version": "1.28.1"
+							},
+							"comments": "",
+							"descriptors": {
+								"entry": [
+									{
+										"key": "Schema Write Strategy",
+										"value": {
+											"name": "Schema Write Strategy"
+										}
+									},
+									{
+										"key": "schema-cache",
+										"value": {
+											"identifiesControllerService": "org.apache.nifi.serialization.RecordSchemaCacheService",
+											"name": "schema-cache"
+										}
+									},
+									{
+										"key": "schema-protocol-version",
+										"value": {
+											"dependencies": {
+												"dependentValues": [
+													"hwx-schema-ref-attributes",
+													"hwx-content-encoded-schema"
+												],
+												"propertyName": "Schema Write Strategy"
+											},
+											"name": "schema-protocol-version"
+										}
+									},
+									{
+										"key": "schema-access-strategy",
+										"value": {
+											"name": "schema-access-strategy"
+										}
+									},
+									{
+										"key": "schema-registry",
+										"value": {
+											"dependencies": {
+												"dependentValues": [
+													"confluent-encoded",
+													"schema-name",
+													"hwx-schema-ref-attributes",
+													"hwx-content-encoded-schema"
+												],
+												"propertyName": "schema-access-strategy"
+											},
+											"identifiesControllerService": "org.apache.nifi.schemaregistry.services.SchemaRegistry",
+											"name": "schema-registry"
+										}
+									},
+									{
+										"key": "schema-name",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-name",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-name"
+										}
+									},
+									{
+										"key": "schema-version",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-name",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-version"
+										}
+									},
+									{
+										"key": "schema-branch",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-name",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-branch"
+										}
+									},
+									{
+										"key": "schema-text",
+										"value": {
+											"dependencies": {
+												"dependentValues": "schema-text-property",
+												"propertyName": "schema-access-strategy"
+											},
+											"name": "schema-text"
+										}
+									},
+									{
+										"key": "Date Format",
+										"value": {
+											"name": "Date Format"
+										}
+									},
+									{
+										"key": "Time Format",
+										"value": {
+											"name": "Time Format"
+										}
+									},
+									{
+										"key": "Timestamp Format",
+										"value": {
+											"name": "Timestamp Format"
+										}
+									},
+									{
+										"key": "CSV Format",
+										"value": {
+											"name": "CSV Format"
+										}
+									},
+									{
+										"key": "Value Separator",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Value Separator"
+										}
+									},
+									{
+										"key": "Include Header Line",
+										"value": {
+											"name": "Include Header Line"
+										}
+									},
+									{
+										"key": "Quote Character",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Quote Character"
+										}
+									},
+									{
+										"key": "Escape Character",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Escape Character"
+										}
+									},
+									{
+										"key": "Comment Marker",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Comment Marker"
+										}
+									},
+									{
+										"key": "Null String",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Null String"
+										}
+									},
+									{
+										"key": "Trim Fields",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Trim Fields"
+										}
+									},
+									{
+										"key": "Quote Mode",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Quote Mode"
+										}
+									},
+									{
+										"key": "Record Separator",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Record Separator"
+										}
+									},
+									{
+										"key": "Include Trailing Delimiter",
+										"value": {
+											"dependencies": {
+												"dependentValues": "custom",
+												"propertyName": "CSV Format"
+											},
+											"name": "Include Trailing Delimiter"
+										}
+									},
+									{
+										"key": "csvutils-character-set",
+										"value": {
+											"name": "csvutils-character-set"
+										}
+									}
+								]
+							},
+							"name": "CSVRecordSetWriter",
+							"persistsState": "false",
+							"properties": {
+								"entry": [
+									{
+										"key": "Schema Write Strategy",
+										"value": "no-schema"
+									},
+									{
+										"key": "schema-cache"
+									},
+									{
+										"key": "schema-protocol-version",
+										"value": "1"
+									},
+									{
+										"key": "schema-access-strategy",
+										"value": "inherit-record-schema"
+									},
+									{
+										"key": "schema-registry"
+									},
+									{
+										"key": "schema-name",
+										"value": "${schema.name}"
+									},
+									{
+										"key": "schema-version"
+									},
+									{
+										"key": "schema-branch"
+									},
+									{
+										"key": "schema-text",
+										"value": "${avro.schema}"
+									},
+									{
+										"key": "Date Format"
+									},
+									{
+										"key": "Time Format"
+									},
+									{
+										"key": "Timestamp Format"
+									},
+									{
+										"key": "CSV Format",
+										"value": "custom"
+									},
+									{
+										"key": "Value Separator",
+										"value": ","
+									},
+									{
+										"key": "Include Header Line",
+										"value": "true"
+									},
+									{
+										"key": "Quote Character",
+										"value": "\""
+									},
+									{
+										"key": "Escape Character",
+										"value": "\\"
+									},
+									{
+										"key": "Comment Marker"
+									},
+									{
+										"key": "Null String"
+									},
+									{
+										"key": "Trim Fields",
+										"value": "true"
+									},
+									{
+										"key": "Quote Mode",
+										"value": "MINIMAL"
+									},
+									{
+										"key": "Record Separator",
+										"value": "\\n"
+									},
+									{
+										"key": "Include Trailing Delimiter",
+										"value": "false"
+									},
+									{
+										"key": "csvutils-character-set",
+										"value": "UTF-8"
+									}
+								]
+							},
+							"state": "ENABLED",
+							"type": "org.apache.nifi.csv.CSVRecordSetWriter"
+						},
+						{
+							"id": "f7e22977-257b-38ea-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"versionedComponentId": "f7e22977-257b-38ea-9323-0474a9d65479",
+							"bulletinLevel": "WARN",
+							"bundle": {
+								"artifact": "nifi-parquet-nar",
+								"group": "org.apache.nifi",
+								"version": "1.28.1"
+							},
+							"comments": "",
+							"descriptors": {
+								"entry": {
+									"key": "avro-read-compatibility",
+									"value": {
+										"name": "avro-read-compatibility"
+									}
+								}
+							},
+							"name": "ParquetReader",
+							"persistsState": "false",
+							"properties": {
+								"entry": {
+									"key": "avro-read-compatibility",
+									"value": "true"
+								}
+							},
+							"state": "ENABLED",
+							"type": "org.apache.nifi.parquet.ParquetReader"
+						}
+					],
+					"processors": [
+						{
+							"id": "42957ad9-b092-3f92-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"position": {
+								"x": "226.0",
+								"y": "464.0"
+							},
+							"versionedComponentId": "42957ad9-b092-3f92-bd85-5301b0e5755e",
+							"bundle": {
+								"artifact": "nifi-standard-nar",
+								"group": "org.apache.nifi",
+								"version": "1.28.1"
+							},
+							"config": {
+								"backoffMechanism": "PENALIZE_FLOWFILE",
+								"bulletinLevel": "WARN",
+								"comments": "",
+								"concurrentlySchedulableTaskCount": "1",
+								"descriptors": {
+									"entry": [
+										{
+											"key": "record-reader",
+											"value": {
+												"identifiesControllerService": "org.apache.nifi.serialization.RecordReaderFactory",
+												"name": "record-reader"
+											}
+										},
+										{
+											"key": "record-writer",
+											"value": {
+												"identifiesControllerService": "org.apache.nifi.serialization.RecordSetWriterFactory",
+												"name": "record-writer"
+											}
+										},
+										{
+											"key": "/industry",
+											"value": {
+												"name": "/industry"
+											}
+										}
+									]
+								},
+								"executionNode": "ALL",
+								"lossTolerant": "false",
+								"maxBackoffPeriod": "10 mins",
+								"penaltyDuration": "30 sec",
+								"properties": {
+									"entry": [
+										{
+											"key": "record-reader",
+											"value": "f7e22977-257b-38ea-0000-000000000000"
+										},
+										{
+											"key": "record-writer",
+											"value": "1c3e03f0-da9b-33bf-0000-000000000000"
+										},
+										{
+											"key": "/industry",
+											"value": ""
+										}
+									]
+								},
+								"retryCount": "10",
+								"runDurationMillis": "0",
+								"schedulingPeriod": "0 sec",
+								"schedulingStrategy": "TIMER_DRIVEN",
+								"yieldDuration": "1 sec"
+							},
+							"executionNodeRestricted": "false",
+							"name": "PartitionRecord",
+							"relationships": [
+								{
+									"autoTerminate": "true",
+									"name": "failure",
+									"retry": "false"
+								},
+								{
+									"autoTerminate": "true",
+									"name": "original",
+									"retry": "false"
+								},
+								{
+									"autoTerminate": "false",
+									"name": "success",
+									"retry": "false"
+								}
+							],
+							"state": "STOPPED",
+							"style": "",
+							"type": "org.apache.nifi.processors.standard.PartitionRecord"
+						},
+						{
+							"id": "50b64616-a210-3746-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"position": {
+								"x": "200.0",
+								"y": "272.0"
+							},
+							"versionedComponentId": "50b64616-a210-3746-b2e8-4e1d950ecefa",
+							"bundle": {
+								"artifact": "nifi-standard-nar",
+								"group": "org.apache.nifi",
+								"version": "1.28.1"
+							},
+							"config": {
+								"backoffMechanism": "PENALIZE_FLOWFILE",
+								"bulletinLevel": "WARN",
+								"comments": "",
+								"concurrentlySchedulableTaskCount": "1",
+								"descriptors": {
+									"entry": [
+										{
+											"key": "record-reader",
+											"value": {
+												"identifiesControllerService": "org.apache.nifi.serialization.RecordReaderFactory",
+												"name": "record-reader"
+											}
+										},
+										{
+											"key": "record-writer",
+											"value": {
+												"identifiesControllerService": "org.apache.nifi.serialization.RecordSetWriterFactory",
+												"name": "record-writer"
+											}
+										},
+										{
+											"key": "include-zero-record-flowfiles",
+											"value": {
+												"name": "include-zero-record-flowfiles"
+											}
+										}
+									]
+								},
+								"executionNode": "ALL",
+								"lossTolerant": "false",
+								"maxBackoffPeriod": "10 mins",
+								"penaltyDuration": "30 sec",
+								"properties": {
+									"entry": [
+										{
+											"key": "record-reader",
+											"value": "6f6fc59b-2cb6-378d-0000-000000000000"
+										},
+										{
+											"key": "record-writer",
+											"value": "1c3e03f0-da9b-33bf-0000-000000000000"
+										},
+										{
+											"key": "include-zero-record-flowfiles",
+											"value": "true"
+										}
+									]
+								},
+								"retryCount": "10",
+								"runDurationMillis": "0",
+								"schedulingPeriod": "0 sec",
+								"schedulingStrategy": "TIMER_DRIVEN",
+								"yieldDuration": "1 sec"
+							},
+							"executionNodeRestricted": "false",
+							"name": "ConvertRecord",
+							"relationships": [
+								{
+									"autoTerminate": "true",
+									"name": "failure",
+									"retry": "false"
+								},
+								{
+									"autoTerminate": "false",
+									"name": "success",
+									"retry": "false"
+								}
+							],
+							"state": "STOPPED",
+							"style": "",
+							"type": "org.apache.nifi.processors.standard.ConvertRecord"
+						},
+						{
+							"id": "9103fb9e-16f0-32c4-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"position": {
+								"x": "202.0",
+								"y": "-86.0"
+							},
+							"versionedComponentId": "9103fb9e-16f0-32c4-8507-791491ab4c22",
+							"bundle": {
+								"artifact": "nifi-standard-nar",
+								"group": "org.apache.nifi",
+								"version": "1.28.1"
+							},
+							"config": {
+								"backoffMechanism": "PENALIZE_FLOWFILE",
+								"bulletinLevel": "WARN",
+								"comments": "",
+								"concurrentlySchedulableTaskCount": "1",
+								"descriptors": {
+									"entry": [
+										{
+											"key": "Input Directory",
+											"value": {
+												"name": "Input Directory"
+											}
+										},
+										{
+											"key": "File Filter",
+											"value": {
+												"name": "File Filter"
+											}
+										},
+										{
+											"key": "Path Filter",
+											"value": {
+												"name": "Path Filter"
+											}
+										},
+										{
+											"key": "Batch Size",
+											"value": {
+												"name": "Batch Size"
+											}
+										},
+										{
+											"key": "Keep Source File",
+											"value": {
+												"name": "Keep Source File"
+											}
+										},
+										{
+											"key": "Recurse Subdirectories",
+											"value": {
+												"name": "Recurse Subdirectories"
+											}
+										},
+										{
+											"key": "Polling Interval",
+											"value": {
+												"name": "Polling Interval"
+											}
+										},
+										{
+											"key": "Ignore Hidden Files",
+											"value": {
+												"name": "Ignore Hidden Files"
+											}
+										},
+										{
+											"key": "Minimum File Age",
+											"value": {
+												"name": "Minimum File Age"
+											}
+										},
+										{
+											"key": "Maximum File Age",
+											"value": {
+												"name": "Maximum File Age"
+											}
+										},
+										{
+											"key": "Minimum File Size",
+											"value": {
+												"name": "Minimum File Size"
+											}
+										},
+										{
+											"key": "Maximum File Size",
+											"value": {
+												"name": "Maximum File Size"
+											}
+										}
+									]
+								},
+								"executionNode": "ALL",
+								"lossTolerant": "false",
+								"maxBackoffPeriod": "10 mins",
+								"penaltyDuration": "30 sec",
+								"properties": {
+									"entry": [
+										{
+											"key": "Input Directory",
+											"value": "/home/wissemjouini/Documents/gmam/SecondeSession/data/input"
+										},
+										{
+											"key": "File Filter",
+											"value": ".*\\csv"
+										},
+										{
+											"key": "Path Filter"
+										},
+										{
+											"key": "Batch Size",
+											"value": "10"
+										},
+										{
+											"key": "Keep Source File",
+											"value": "false"
+										},
+										{
+											"key": "Recurse Subdirectories",
+											"value": "true"
+										},
+										{
+											"key": "Polling Interval",
+											"value": "0 sec"
+										},
+										{
+											"key": "Ignore Hidden Files",
+											"value": "true"
+										},
+										{
+											"key": "Minimum File Age",
+											"value": "0 sec"
+										},
+										{
+											"key": "Maximum File Age"
+										},
+										{
+											"key": "Minimum File Size",
+											"value": "0 B"
+										},
+										{
+											"key": "Maximum File Size"
+										}
+									]
+								},
+								"retryCount": "10",
+								"runDurationMillis": "0",
+								"schedulingPeriod": "0 sec",
+								"schedulingStrategy": "TIMER_DRIVEN",
+								"yieldDuration": "1 sec"
+							},
+							"executionNodeRestricted": "false",
+							"name": "GetFile",
+							"relationships": {
+								"autoTerminate": "false",
+								"name": "success",
+								"retry": "false"
+							},
+							"state": "STOPPED",
+							"style": "",
+							"type": "org.apache.nifi.processors.standard.GetFile"
+						},
+						{
+							"id": "b2de43fe-0126-3e29-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"position": {
+								"x": "208.0",
+								"y": "88.0"
+							},
+							"versionedComponentId": "b2de43fe-0126-3e29-99f8-0a7b02dd9c48",
+							"bundle": {
+								"artifact": "nifi-standard-nar",
+								"group": "org.apache.nifi",
+								"version": "1.28.1"
+							},
+							"config": {
+								"backoffMechanism": "PENALIZE_FLOWFILE",
+								"bulletinLevel": "WARN",
+								"comments": "",
+								"concurrentlySchedulableTaskCount": "1",
+								"descriptors": {
+									"entry": [
+										{
+											"key": "record-reader",
+											"value": {
+												"identifiesControllerService": "org.apache.nifi.serialization.RecordReaderFactory",
+												"name": "record-reader"
+											}
+										},
+										{
+											"key": "record-writer",
+											"value": {
+												"identifiesControllerService": "org.apache.nifi.serialization.RecordSetWriterFactory",
+												"name": "record-writer"
+											}
+										},
+										{
+											"key": "replacement-value-strategy",
+											"value": {
+												"name": "replacement-value-strategy"
+											}
+										},
+										{
+											"key": "/date",
+											"value": {
+												"name": "/date"
+											}
+										}
+									]
+								},
+								"executionNode": "ALL",
+								"lossTolerant": "false",
+								"maxBackoffPeriod": "10 mins",
+								"penaltyDuration": "30 sec",
+								"properties": {
+									"entry": [
+										{
+											"key": "record-reader",
+											"value": "6f6fc59b-2cb6-378d-0000-000000000000"
+										},
+										{
+											"key": "record-writer",
+											"value": "90ca3d62-4873-372f-0000-000000000000"
+										},
+										{
+											"key": "replacement-value-strategy",
+											"value": "literal-value"
+										},
+										{
+											"key": "/date",
+											"value": "${now():format(\"yyyy-MM-dd HH:mm:ss\")}"
+										}
+									]
+								},
+								"retryCount": "10",
+								"runDurationMillis": "0",
+								"schedulingPeriod": "0 sec",
+								"schedulingStrategy": "TIMER_DRIVEN",
+								"yieldDuration": "1 sec"
+							},
+							"executionNodeRestricted": "false",
+							"name": "UpdateRecord",
+							"relationships": [
+								{
+									"autoTerminate": "true",
+									"name": "failure",
+									"retry": "false"
+								},
+								{
+									"autoTerminate": "false",
+									"name": "success",
+									"retry": "false"
+								}
+							],
+							"state": "STOPPED",
+							"style": "",
+							"type": "org.apache.nifi.processors.standard.UpdateRecord"
+						},
+						{
+							"id": "e704757f-5bab-32d5-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"position": {
+								"x": "660.6086356648611",
+								"y": "473.84941363103235"
+							},
+							"versionedComponentId": "e704757f-5bab-32d5-b3e8-144b2763fa5d",
+							"bundle": {
+								"artifact": "nifi-update-attribute-nar",
+								"group": "org.apache.nifi",
+								"version": "1.28.1"
+							},
+							"config": {
+								"backoffMechanism": "PENALIZE_FLOWFILE",
+								"bulletinLevel": "WARN",
+								"comments": "",
+								"concurrentlySchedulableTaskCount": "1",
+								"descriptors": {
+									"entry": [
+										{
+											"key": "Delete Attributes Expression",
+											"value": {
+												"name": "Delete Attributes Expression"
+											}
+										},
+										{
+											"key": "Store State",
+											"value": {
+												"name": "Store State"
+											}
+										},
+										{
+											"key": "Stateful Variables Initial Value",
+											"value": {
+												"name": "Stateful Variables Initial Value"
+											}
+										},
+										{
+											"key": "canonical-value-lookup-cache-size",
+											"value": {
+												"name": "canonical-value-lookup-cache-size"
+											}
+										},
+										{
+											"key": "filename",
+											"value": {
+												"name": "filename"
+											}
+										},
+										{
+											"key": "path",
+											"value": {
+												"name": "path"
+											}
+										}
+									]
+								},
+								"executionNode": "ALL",
+								"lossTolerant": "false",
+								"maxBackoffPeriod": "10 mins",
+								"penaltyDuration": "30 sec",
+								"properties": {
+									"entry": [
+										{
+											"key": "Delete Attributes Expression"
+										},
+										{
+											"key": "Store State",
+											"value": "Do not store state"
+										},
+										{
+											"key": "Stateful Variables Initial Value"
+										},
+										{
+											"key": "canonical-value-lookup-cache-size",
+											"value": "100"
+										},
+										{
+											"key": "filename",
+											"value": "${industry}_${uuid}"
+										},
+										{
+											"key": "path",
+											"value": "/home/wissemjouini/Documents/gmam/SecondeSession/data/output/${industry}"
+										}
+									]
+								},
+								"retryCount": "10",
+								"runDurationMillis": "25",
+								"schedulingPeriod": "0 sec",
+								"schedulingStrategy": "TIMER_DRIVEN",
+								"yieldDuration": "1 sec"
+							},
+							"executionNodeRestricted": "false",
+							"name": "UpdateAttribute",
+							"relationships": {
+								"autoTerminate": "false",
+								"name": "success",
+								"retry": "false"
+							},
+							"state": "STOPPED",
+							"style": "",
+							"type": "org.apache.nifi.processors.attributes.UpdateAttribute"
+						},
+						{
+							"id": "ee46313c-3583-3f7a-0000-000000000000",
+							"parentGroupId": "d5d1d125-bf50-32cf-0000-000000000000",
+							"position": {
+								"x": "672.0",
+								"y": "88.0"
+							},
+							"versionedComponentId": "ee46313c-3583-3f7a-bf1d-4479d72be311",
+							"bundle": {
+								"artifact": "nifi-standard-nar",
+								"group": "org.apache.nifi",
+								"version": "1.28.1"
+							},
+							"config": {
+								"backoffMechanism": "PENALIZE_FLOWFILE",
+								"bulletinLevel": "WARN",
+								"comments": "",
+								"concurrentlySchedulableTaskCount": "1",
+								"descriptors": {
+									"entry": [
+										{
+											"key": "Directory",
+											"value": {
+												"name": "Directory"
+											}
+										},
+										{
+											"key": "Conflict Resolution Strategy",
+											"value": {
+												"name": "Conflict Resolution Strategy"
+											}
+										},
+										{
+											"key": "Create Missing Directories",
+											"value": {
+												"name": "Create Missing Directories"
+											}
+										},
+										{
+											"key": "Maximum File Count",
+											"value": {
+												"name": "Maximum File Count"
+											}
+										},
+										{
+											"key": "Last Modified Time",
+											"value": {
+												"name": "Last Modified Time"
+											}
+										},
+										{
+											"key": "Permissions",
+											"value": {
+												"name": "Permissions"
+											}
+										},
+										{
+											"key": "Owner",
+											"value": {
+												"name": "Owner"
+											}
+										},
+										{
+											"key": "Group",
+											"value": {
+												"name": "Group"
+											}
+										}
+									]
+								},
+								"executionNode": "ALL",
+								"lossTolerant": "false",
+								"maxBackoffPeriod": "10 mins",
+								"penaltyDuration": "30 sec",
+								"properties": {
+									"entry": [
+										{
+											"key": "Directory",
+											"value": "${path}"
+										},
+										{
+											"key": "Conflict Resolution Strategy",
+											"value": "fail"
+										},
+										{
+											"key": "Create Missing Directories",
+											"value": "true"
+										},
+										{
+											"key": "Maximum File Count"
+										},
+										{
+											"key": "Last Modified Time"
+										},
+										{
+											"key": "Permissions"
+										},
+										{
+											"key": "Owner"
+										},
+										{
+											"key": "Group"
+										}
+									]
+								},
+								"retryCount": "10",
+								"runDurationMillis": "0",
+								"schedulingPeriod": "0 sec",
+								"schedulingStrategy": "TIMER_DRIVEN",
+								"yieldDuration": "1 sec"
+							},
+							"executionNodeRestricted": "false",
+							"name": "PutFile",
+							"relationships": [
+								{
+									"autoTerminate": "false",
+									"name": "failure",
+									"retry": "false"
+								},
+								{
+									"autoTerminate": "false",
+									"name": "success",
+									"retry": "false"
+								}
+							],
+							"state": "STOPPED",
+							"style": "",
+							"type": "org.apache.nifi.processors.standard.PutFile"
+						}
+					]
+				},
+				"defaultBackPressureDataSizeThreshold": "1 GB",
+				"defaultBackPressureObjectThreshold": "10000",
+				"defaultFlowFileExpiration": "0 sec",
+				"flowfileConcurrency": "UNBOUNDED",
+				"flowfileOutboundPolicy": "STREAM_WHEN_AVAILABLE",
+				"name": "GMAM-RELIABILITY-TP1",
+				"variables": ""
+			}
+		},
+		"timestamp": "12/15/2024 00:09:04 CET",
+		"_encoding-version": "1.3"
+	}
+}
